@@ -1,0 +1,54 @@
+
+@media screen and (max-width: 768px) {
+  body{
+    background-image: url(./images/bg-intro-mobile.png);
+    background-color: var(--Red);
+    height: 100vh;
+  }
+  .main{
+    flex-direction: column;
+  }
+  .container {
+      width: calc(100% - 40px);
+      height: auto;
+  }
+.form{
+  width:22rem;
+   margin-bottom: 80px;
+  
+}
+#fname,
+#lname,
+#email,
+#password {
+    padding: 15px;
+}
+
+  .para-1 {
+    text-align: center;
+      margin-top: 100%;
+      line-height: 2.5rem;
+  }
+
+  .para-2 {
+     text-align: center;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    
+  }
+
+  .try-btn{
+      width: 22rem;
+  }
+  .claim-btn{
+    width:19rem;
+  
+  }
+  .para-3{
+    text-align: center;
+  }
+ 
+}
+
+
+
